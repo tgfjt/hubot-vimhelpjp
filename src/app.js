@@ -1,13 +1,14 @@
-/**
- * Description:
- *   ':help' for vimhelp
- *
- * Dependencies:
- *    "request": "^2.36.0"
- *
- * Commands:
- *   :vimhelpjp <keyword> - to create hash from phrase.
- */
+// Description:
+//   ':help' for vimhelp
+//
+// Dependencies:
+//    "request": "^2.36.0"
+//
+// Configuration:
+//   None
+//
+// Commands:
+//   :vimhelp <keyword> - to run :help for vimhelpjp
 var request = require('request');
 
 var vimhelpjp = require('./vimhelpjp');
