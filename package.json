@@ -1,0 +1,30 @@
+{
+  "name": "hubot-vimhelpjp",
+  "version": "0.0.1",
+  "author": "tgfjt",
+  "description": "hubotscript for run ':help'",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/*.js"
+  },
+  "keywords": [
+    "hubot",
+    "vim",
+    "help"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgfjt/hubot-vimhelpjp"
+  },
+  "bugs": {
+    "email": "tgfjt.mail@gmail.com",
+    "url": "https://github.com/tgfjt/hubot-vimhelpjp/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.36.0"
+  },
+  "devDependencies": {
+    "tape": "^2.13.2"
+  }
+}
