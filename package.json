@@ -1,11 +1,12 @@
 {
   "name": "hubot-vimhelpjp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "tgfjt",
   "description": "hubotscript for run ':help'",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/*.js"
+    "test": "node tests/*.js",
+    "pretest": "./node_modules/.bin/jshint src"
   },
   "keywords": [
     "hubot",
@@ -25,6 +26,7 @@
     "request": "^2.36.0"
   },
   "devDependencies": {
+    "jshint": "^2.5.1",
     "tape": "^2.13.2"
   }
 }
