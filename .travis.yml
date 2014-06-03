@@ -5,4 +5,4 @@ node_js:
   - "0.11"
 script: npm run-script pretest
 before_install:
-  - npm install -g npm@~1.4.6
+  - npm update -g npm
