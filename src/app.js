@@ -17,7 +17,7 @@ var url = 'http://vim-help-jp.herokuapp.com/api/search/json/';
 
 module.exports = function(robot) {
 	robot.hear(/:vimhelp (.*)/i, function(msg) {
-		request({url: url, qs: {query: 'CTRL-]'}}, function(err, res, body) {
+		request({url: url, qs: {query: msg.match[1]}}, function(err, res, body) {
 			if (!err && res.statusCode === 200) {
 				msg.send(vimhelpjp(body));
 			} else if (err) {
