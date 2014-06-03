@@ -8,7 +8,7 @@ http://vim-help-jp.herokuapp.com/
 
 ## Usage
 
-`hubot :vimhelp CTRL-]`
+`:vimhelp CTRL-]`
 
 ## Install
 
