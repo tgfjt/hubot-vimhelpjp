@@ -1,9 +1,8 @@
 {
-	"maxerr": 1000,
-	"indent": 4,
+	"maxerr": 100,
 	"maxparams": 5,
 	"maxdepth": 3,
-	"maxstatements": 20,
+	"maxstatements": 10,
 	"maxcomplexity": 5,
 	"node": true,
 	"bitwise": true,
@@ -21,8 +20,6 @@
 	"quotmark": true,
 	"undef": true,
 	"unused": true,
-	"strict": false,
 	"trailing": true,
-	"eqnull": true,
 	"lastsemic": true
 }

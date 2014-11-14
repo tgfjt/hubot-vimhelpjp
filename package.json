@@ -5,7 +5,7 @@
   "description": "hubotscript for run ':help'",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/*.js",
+    "test": "node tests/test.js",
     "pretest": "./node_modules/.bin/jshint src"
   },
   "keywords": [
